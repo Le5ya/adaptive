@@ -32,3 +32,18 @@
   text-align: center;
   color: #FFFFFF;
 }
+@media(max-width: 1040px) {
+  .hero {
+    padding-top: 78px;
+  }
+  .hero__title {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 27px;
+  }
+  .hero__text {
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 60px;
+  }
+}

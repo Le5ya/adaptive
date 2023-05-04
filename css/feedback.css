@@ -68,3 +68,18 @@
   line-height: 23px;
   color: #4A76A8;
 }
+@media(max-width: 1040px) {
+  .feedback__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 17px;
+    margin-bottom: 16px;
+  }
+  .feedback__sub {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .form__wrapper {
+    width: 379px; 
+  }
+}

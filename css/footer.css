@@ -13,3 +13,18 @@
   line-height: 17px;
   color: #FFFFFF;
 }
+
+.logo__copy {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  max-width: 140px;
+  color: #FFFFFF;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  margin-right: 27px;
+}

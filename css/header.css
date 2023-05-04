@@ -2,6 +2,10 @@
   padding-top: 40px;
   position: relative;
 }
+.header__logo {
+  width: 68px;
+  height: 68px;
+}
 .header:after {
     content:'';
     position: absolute;
@@ -9,7 +13,7 @@
     height: 723px;
     background-color: rgba(47, 50, 75, 0.85);
     background-image: url('../img/stag-office-mockup.jpg');
-    background-size: contain;;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -21,6 +25,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__logo {
+  width: 60px;
+  height: 60px;
 }
  .phone__text{
   font-weight: 400;
@@ -35,4 +43,28 @@
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
+ }
+ @media(max-width: 1040px) {
+    .header {
+      padding-top: 26px;
+      }
+    .header:after {
+      background-size: contain;
+      width: 1024px;
+      height: 528px;
+
+    }
+    .header__container {
+      padding:0;
+
+    }
+    .phone__text {
+      font-size: 21px;
+      line-height: 25px;
+
+    }
+    .phone__link {
+      font-size: 13px;
+      line-height: 15px;
+    }
  }

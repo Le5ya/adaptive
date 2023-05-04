@@ -84,3 +84,25 @@ line-height: 28px;
 text-align: center;
 color: #383A4C;
 }
+@media(max-width: 1040px) {
+  .advantages__title  {
+    font-size: 32px;
+    line-height: 41px;
+    margin-bottom: 23px;
+  }
+  .advantages__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 65px;
+  }
+  .number__block {
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+    padding: 22px 31px;
+  }
+  .number__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
