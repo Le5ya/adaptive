@@ -2,7 +2,7 @@
   padding-top: 40px;
   position: relative;
 }
-.header__logo {
+.logo {
   width: 68px;
   height: 68px;
 }
@@ -25,10 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header__logo {
-  width: 60px;
-  height: 60px;
+  width: 100%;
 }
  .phone__text{
   font-weight: 400;
@@ -52,19 +49,17 @@
       background-size: contain;
       width: 1024px;
       height: 528px;
-
-    }
-    .header__container {
-      padding:0;
-
     }
     .phone__text {
       font-size: 21px;
       line-height: 25px;
-
     }
     .phone__link {
       font-size: 13px;
       line-height: 15px;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
     }
  }
