@@ -51,7 +51,7 @@ input {
 }
 
 .container {
-  max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 200px;
 }
@@ -60,21 +60,20 @@ input {
   padding: 70px 0;
 }
 
+
 @media(max-width: 1040px) {
   .container {
-    max-width: 1024px;
+    width: 100%;
     padding: 0 70px;
+    margin: auto;
   }
 }
-@media(max-width: 1040px) {
-  .container {
-    max-width: 1024px;                              
-    padding: 0 70px;
-  }
-}
+
 @media(max-width: 320px) {
   .container {
-    max-width: 320px;                              
-    padding: 0 15px;
+    width: 320px;
+    padding: 0 15px;                              
+    margin: 0 auto;
+   
   }
 }

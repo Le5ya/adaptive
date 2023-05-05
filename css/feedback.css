@@ -78,7 +78,7 @@
     line-height: 23px;
   }
   .form__wrapper {
-    width: 379px; 
+    max-width: 200px; 
   }
 }
 @media(max-width: 320px) {
