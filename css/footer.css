@@ -9,11 +9,13 @@
   padding: 0 200px;
 }
 .footer__author {
+  display: block;
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #FFFFFF;
 }
+
 .footer__author_mob {
     display: none;
 }
@@ -29,7 +31,9 @@
   color: #FFFFFF;
 }
 .footer__logo {
+  width: 214px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 }

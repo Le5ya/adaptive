@@ -129,6 +129,12 @@ background: #383A4C;
   }
   
 }
+@media(max-width: 768px) {
+  .advantages__container {
+    margin: 0 auto;
+  }
+}
+
 @media(max-width: 320px) {
   .advantages__container {
     padding: 0 15px;

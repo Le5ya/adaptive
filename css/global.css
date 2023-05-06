@@ -55,16 +55,24 @@ input {
 .container {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 200px;
-   
+  padding: 0 200px;  
 }
+
 @media(max-width: 1040px)  {
   .container {
     padding: 0 30px; 
   }
 }
 
+@media(max-width: 320px)  {
+  .container {
+    padding: 0 15px; 
+  }
+}
+
 .section {
+  width: 100vw;
+  background-size: contain;
   padding: 70px 0;
 }
 .section:none(:first-child) {
