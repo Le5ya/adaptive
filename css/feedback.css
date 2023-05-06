@@ -1,9 +1,10 @@
 .feedback {
   position: relative;
   background-image: url('../img/feed-background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .feedback:after {
   position: absolute;
@@ -94,6 +95,7 @@
     font-size: 20px;
     line-height: 23px;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
   .form__wrapper {
     max-width: 400px; 
