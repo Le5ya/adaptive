@@ -1,15 +1,32 @@
 .feedback {
+  position: relative;
   background-image: url('../img/feed-background.jpg');
+  background-size: contain;
+  background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: cover;
+}
+.feedback:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+.feedback__container {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
 }
 .feedback__title {
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 17px;
+
 }
 .feedback__sub {
   font-weight: 500;
@@ -76,14 +93,21 @@
   .feedback__sub {
     font-size: 20px;
     line-height: 23px;
+    margin: 0 auto;
   }
   .form__wrapper {
-    max-width: 200px; 
+    max-width: 400px; 
   }
 }
 @media(max-width: 320px) {
   .feedback {
-    padding-bottom: 30px;
+    width: 320px;
+    padding: 30px 0;
+    background-image: url('../img/feed-background-mob.jpg');
+  }
+  .feedback__container {
+    width: 320px;
+    padding: 0 15px;
   }
 
   .feedback__form {
@@ -101,6 +125,8 @@
   .feedback__sub {
     font-size: 12px;
     line-height: 14px;
+    margin-bottom: 35px;
+    margin: 0 auto;
     margin-bottom: 35px;
     width: 300px;
   }

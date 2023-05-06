@@ -1,10 +1,12 @@
 .footer {
   background: #2F324B;
+  padding: 46px 0;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 200px;
 }
 .footer__author {
   font-weight: 500;
@@ -31,12 +33,28 @@
   align-items: center;
   gap: 30px;
 }
+@media(max-width: 1040px) {
+  .footer {
+    width: 1040px;
+    padding: 30px 0;
+  }
+  .footer__container {
+    padding: 0 45px;
+  }
+}
 
 @media(max-width: 320px) {
+  .footer {
+    width: 320px;
+    padding: 0; 
+  }
   .footer__container {
     width: 320px;
-    height: 127px;
     padding: 0 15px;
+    margin: 0 auto;
+  }
+  .footer__wrap {
+    padding: 45px 0;
   }
   .footer__logo {
     display: flex;
