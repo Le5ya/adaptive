@@ -8,7 +8,6 @@ html {
 
 
 body {
-  /* width: 1600px; */
   margin: 0 auto; 
   min-width: 320px;
   min-height: 100vh;
@@ -28,7 +27,6 @@ button {
 
 a {
   color: inherit;
-  /* text-decoration: none; */
 }
 
 h1, h2, p, img{
@@ -52,17 +50,37 @@ input {
   outline: none;
 }
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 50px;  
-}
 .section {
   padding: 70px 0;
 }
 .section:none(:first-child) {
   padding: 40px 0;
 }
+.container {
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+  }
+  section {
+  padding: 70px 0;
+  }
+  
+  @media (max-width: 1024px) {
+  .container {
+  max-width: 1024px;
+  padding: 0 30px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+  .container {
+  max-width: 320px;
+  padding: 0 15px;
+  }
+  section {
+  padding: 30px 0;
+  }
+  }
 
 
 

@@ -65,11 +65,11 @@
     display: none;
   }
   .footer__author_mob {
-    padding: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #2A2C3F;
+    margin: 0;
    }
 }
 
@@ -77,9 +77,9 @@
   .footer__container {
     padding: 0 15px;
   }
-  .footer__container {
+  /* .footer__container {
     padding: 45px 0;
-  }
+  } */
   .footer__logo {
     display: flex;
     gap: 19px;
@@ -94,6 +94,10 @@
     line-height: 11px;
     min-width: 140px;
     color: #FFFFFF;
+  }
+  .footer__author_mob {
+    padding: 15px 0;
+    background: #2A2C3F;
   }
   
 }
