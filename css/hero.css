@@ -1,10 +1,9 @@
 .hero {
+  padding-top: 140px;
   position: relative;
-  padding-top: 220px;
-  padding-bottom: 120px;
   background-image: url('../img/stag-office-mockup.jpg');
-  background-size: contain;
-  background-position: 0 0;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   
 }
@@ -20,7 +19,6 @@
 
 .hero__container {
   position: relative;
-  margin: 0 auto;
   z-index: 2;
 }
 
@@ -61,7 +59,6 @@
 }
 @media(max-width: 1040px) {
   .hero {
-    width: 1024px;
     padding-top: 156px;
     padding-bottom: 70px;
     margin: 0 auto;
@@ -85,11 +82,8 @@
   }
 }
 @media(max-width: 768px) {
-  .hero {
-    width: 768px;
-  }
   .hero__container {
-    padding: 0 20px;
+    padding: 0 15px;
   }
   .hero__title {
     font-size: 30px;
@@ -103,19 +97,15 @@
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 720px) {
   .hero {
-    max-width: 320px;
     padding: 110px 0;
-  }
-  .hero__container {
-    padding: 0 15px;
   }
   .hero__title {
     font-size: 20px;
     line-height: 23px;
-    width: 290px;
-    height: 69px;
+    max-width: 290px;
+    min-height: 69px;
     padding: 0;
     margin-bottom: 23px;
   }
@@ -123,8 +113,8 @@
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 63px;
-    width: 290px;
-    height: 100px;
+    max-width: 290px;
+    min-height: 100px;
   }
   .hero__button {
     padding: 9px 29px;

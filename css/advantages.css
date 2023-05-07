@@ -56,6 +56,8 @@ background: #383A4C;
 .advantages__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
 .advantages__item {
   display: flex;
@@ -96,6 +98,9 @@ background: #383A4C;
     line-height: 23px;
     margin-bottom: 65px;
   }
+  .advantages__list {
+    justify-content: space-around; 
+  }
   .number__block {
     display: inline-block;
     width: 104px;
@@ -108,13 +113,6 @@ background: #383A4C;
   }
 }
 @media(max-width: 768px) {
-  .advantages_container {
-    padding: 0 70px;
-    width: 768px;
-  }
-  .advantages__container {
-    margin: auto;
-  }
   .advantages__title {
     font-size: 20px;
     line-height: 23px;

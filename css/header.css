@@ -16,7 +16,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+}
+.header__phone {
+  text-align: center;
 }
  .phone__icon {
   display: none;
@@ -37,8 +39,7 @@
  }
  @media(max-width: 1040px) {
     .header {
-      width: 1024px;
-      padding-top:  26px 0;
+      padding:  26px 0;
       margin: 0 auto;
       }
     .header__container {
