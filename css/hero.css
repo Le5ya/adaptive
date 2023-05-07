@@ -59,8 +59,6 @@
 }
 @media(max-width: 1040px) {
   .hero {
-    padding-top: 156px;
-    padding-bottom: 70px;
     margin: 0 auto;
     background-size: cover;
   }

@@ -73,13 +73,11 @@
    }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 450px) {
   .footer__container {
     padding: 0 15px;
   }
-  /* .footer__container {
-    padding: 45px 0;
-  } */
+
   .footer__logo {
     display: flex;
     gap: 19px;
