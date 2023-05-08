@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 140px;
+  padding-top: 230px;
   position: relative;
   background-image: url('../img/stag-office-mockup.jpg');
   background-size: cover;
@@ -23,23 +23,25 @@
 }
 
 .hero__title {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  font-weight: 900;
-  font-size: 52px;
+  font-weight: 700;
+  font-size: 50px;
   line-height: 61px;
   text-align: center;
   color: rgba(255, 255, 255, 0.86);
-  margin-bottom: 41px;
+  margin-bottom: 30px;
   
   
 }
 .hero__text {
-  width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 31px;
+  padding: 0 px;
+  letter-spacing: 0.2px;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 90px;

@@ -1,4 +1,5 @@
 .footer {
+  padding: 50px 0;
   background-color: #2F324B;
 }
 .footer__wrap {
@@ -8,6 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 80%;
+  padding: 0 40px;
   
 }
 .footer__author {
@@ -37,7 +40,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 22px;
+}
+.footer__phone {
+  text-align: center;
+}
+.phone__text {
+  margin-bottom: 2px;
+}
+.phone__link {
+  position: relative;
+  text-decoration: none;
+}
+.phone__link:after {
+  position: absolute;
+  content: '';
+  width: 135px;
+  height: 1px;
+  background-color: #fff;
+  left: 0;
+  top: 21px;
 }
 @media(max-width: 1040px) {
   .footer__wrap {
