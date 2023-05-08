@@ -1,20 +1,19 @@
 .footer {
-  padding: 50px 0;
-  background-color: #2F324B;
-}
-.footer__wrap {
   padding: 45px 0;
+  background-color: #2F324B;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-width: 80%;
-  padding: 0 40px;
-  
+  padding: 0 40px; 
+}
+.logo__img {
+  width: 68px;
+  height: 68px;
 }
 .footer__author {
-  display: block;
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
@@ -40,7 +39,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 22px;
+  gap: 20px;
 }
 .footer__phone {
   text-align: center;
@@ -55,19 +54,27 @@
 .phone__link:after {
   position: absolute;
   content: '';
-  width: 135px;
+  width: 100px;
   height: 1px;
   background-color: #fff;
   left: 0;
-  top: 21px;
+  top: 18px;
 }
 @media(max-width: 1040px) {
-  .footer__wrap {
-    padding: 30px 0;
+  .footer {
+    padding-top: 35px;
+    padding-bottom: 50px;
   }
   .footer__container {
-    padding: 0 45px;
+    padding: 0 30px;
   }
+  .logo__img {
+    width: 60px;
+    height: 60px;
+  }
+  .footer__author{
+    padding-right: 20px;  
+ }
 }
 @media(max-width: 768px) {
 
