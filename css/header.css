@@ -1,13 +1,14 @@
 .header {
   position: absolute;
   margin: 0 auto;
+  height: 70px;
   min-width: 100%;
   top: 0;
   left: 0;
-  padding: 40px 0;
+  padding-top: 40px;
   z-index: 1;
 }
-.logo__img {
+.logo {
   width: 68px;
   height: 68px;
 }
@@ -37,9 +38,6 @@
   color: #FFFFFF;
  }
  @media(max-width: 1040px) {
-    .header {
-      padding: 26px 0;
-    }
     .header__container {
       padding: 0 30px;
     }
@@ -51,11 +49,14 @@
       font-size: 13px;
       line-height: 15px;
     }
-    
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
  }
  @media(max-width: 320px) {
   .header {
-    padding:  15px 0;
+    padding: 0;
     }
   .header__container {
     max-width: 320px;

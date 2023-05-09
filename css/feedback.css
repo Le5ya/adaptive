@@ -86,8 +86,8 @@
 
 @media(max-width: 1040px) {
   .feedback {
-    padding-top: 103px;
     padding-bottom: 59px;
+    padding-bottom: 30px;
   }
   .feedback__title {
     font-size: 30px;
@@ -101,12 +101,16 @@
     margin-bottom: 50px;
   }
   .feedback__form {
-    gap: 48px;
     padding-bottom: 28px;
     }
   .form__wrapper {
     width: 40%;
     gap: 14px;
+    margin-bottom: 45px;
+  }
+  .form__button {
+    width: 175px;
+    height: 38px;
   }
   .feedback__policy {
     font-size: 18px;
@@ -141,11 +145,6 @@
   }
 }
 @media(max-width: 450px) {
-  .form__wrapper {
-    width: 93%;
-  }
-}
-@media(max-width: 320px) {
   .feedback {
     width: 320px;
     padding: 30px 0;
@@ -160,13 +159,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px;
-    padding-bottom: 30px;
+    /* gap: 45px;
+    padding-bottom: 30px; */
   }
   .feedback__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .feedback__sub {
     font-size: 12px;
@@ -177,13 +176,21 @@
     width: 300px;
   }
   .form__wrapper {
-    width: 93%;
-    gap: 21px;
+    min-width: 100%;
+    gap: 16px;
+    
   }
+  .wrapper__input {
+    height: 28px;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    }
   .form__button {
     font-size: 16px;
     line-height: 19px;
-    padding: 10px 26px;
+    padding: 6px 20px;
+    
   }
   .feedback__policy {
     font-size: 11px;
