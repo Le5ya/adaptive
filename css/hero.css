@@ -1,5 +1,6 @@
 .hero {
   padding-top: 230px;
+  padding-bottom:120px;
   position: relative;
   background-image: url('../img/stag-office-mockup.jpg');
   background-size: cover;
