@@ -24,13 +24,12 @@
   content:"";
   width: 43px;
   height: 2px;
-  left: 704px;
-  top: 881px;
+  border: 1px solid red;
   background: #383A4C;
-  left: calc(50% - 96px);
+  top: 10px;
+  left: calc(50% - 92px);
   width: 43px;
   height: 2px;
-  top: 13px;
   background-size: cover;
   background-color: #383A4C;
 }
@@ -39,8 +38,8 @@
   content:"";
   width: 43px;
   height: 2px;
-  top: 13px;
-  left: calc(50% + 48px);
+  top: 10px;
+  left: calc(50% + 46px);
   background-size: cover;
   background-color: #383A4C;
 }
@@ -89,7 +88,7 @@
 }
 @media(max-width: 1040px) {
   .advantages {
-  padding-bottom: 75px;
+  padding-bottom: 73px;
   }
   .advantages__title  {
     font-size: 31px;
@@ -146,8 +145,8 @@
 
 @media(max-width: 450px) {
   .advantages {
-    padding-top: 40px;
-    padding-bottom: 64px;
+    padding-top: 34px;
+    padding-bottom: 63px;
   }
   .advantages__title {
     margin-bottom: 14px;
@@ -170,6 +169,9 @@
     }
     .advantages__text {
       margin-bottom: 44px;
+    }
+    .number__block {
+      padding: 18px 0;
     }
     
 }

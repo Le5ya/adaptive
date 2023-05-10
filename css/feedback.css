@@ -86,8 +86,8 @@
 
 @media(max-width: 1040px) {
   .feedback {
-    padding-bottom: 59px;
-    padding-bottom: 30px;
+    padding-top: 67px;
+    padding-bottom: 56px;
   }
   .feedback__title {
     font-size: 30px;
@@ -100,17 +100,16 @@
     margin: 0 auto;
     margin-bottom: 50px;
   }
-  .feedback__form {
-    padding-bottom: 28px;
-    }
   .form__wrapper {
     width: 40%;
     gap: 14px;
-    margin-bottom: 45px;
+    margin-bottom: 49px;
   }
   .form__button {
-    width: 175px;
-    height: 38px;
+    /* width: 175px;
+    height: 38px; */
+    padding: 11px 40px;
+    margin-bottom: 30px;
   }
   .feedback__policy {
     font-size: 18px;
@@ -147,7 +146,8 @@
 @media(max-width: 450px) {
   .feedback {
     width: 320px;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 34px;
     background-image: url('../img/feed-background-mob.jpg');
   }
   .feedback__container {
@@ -159,8 +159,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 45px;
-    padding-bottom: 30px; */
   }
   .feedback__title {
     font-size: 20px;
@@ -193,12 +191,14 @@
     
   }
   .feedback__policy {
-    font-size: 11px;
-    line-height: 13px;
+    font-size: 9px;
+    line-height: 11px;
     margin-bottom: 0;
+    letter-spacing: -1px;
+    text-align: center;
   }
   .policy__link {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 8px;
+    line-height: 10px;
   }
 }
