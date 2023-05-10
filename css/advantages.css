@@ -1,5 +1,6 @@
 .advantages {
-  padding: 70px 0;
+  padding-top: 70px 0;
+  padding-bottom: 72px;
 }
 .advantages__title {
   font-weight: 700;
@@ -24,7 +25,6 @@
   content:"";
   width: 43px;
   height: 2px;
-  border: 1px solid red;
   background: #383A4C;
   top: 10px;
   left: calc(50% - 92px);
@@ -51,10 +51,10 @@
   line-height: 25px;
   text-align: center;
   color: #383A4C;
-  margin-bottom: 58px;
+  margin-bottom: 59px;
 }
 .advantages__list {
-  padding: 0 130px;
+  padding: 0 133px;
   display: flex;
   justify-content: space-between;
 }
@@ -89,6 +89,7 @@
 @media(max-width: 1040px) {
   .advantages {
   padding-bottom: 73px;
+  
   }
   .advantages__title  {
     font-size: 31px;

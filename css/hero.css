@@ -1,6 +1,6 @@
 .hero {
   padding-top: 230px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
   position: relative;
   background-image: url('../img/stag-office-mockup.jpg');
   background-size: cover;
@@ -62,8 +62,9 @@
 }
 @media(max-width: 1040px) {
   .hero {
-    padding-top: 126px;
-    padding-bottom: 42px;
+    padding-top: 125px;
+    padding-bottom: 40px;
+    background-image: url('../img/stag-office-mockup-24.jpg');
   }
   .hero__container {
     width: 100%;
@@ -84,7 +85,7 @@
     margin-bottom: 58px;
   }
   .hero__button {
-    padding: 12px 48px;
+    padding: 13px 48px;
   }
 }
 @media(max-width: 768px) {
