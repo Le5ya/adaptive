@@ -103,8 +103,14 @@
 }
 
 @media(max-width: 450px) {
+  .footer {
+    padding: 0;
+  }
   .footer__container {
-    padding: 0 15px;
+    padding-top: 0 15px;
+  }
+  .footer__wrap {
+    padding: 26px 0;
   }
 
   .footer__logo {
@@ -116,15 +122,22 @@
     height: 30px;
   }
   .logo__copy {
+    display: block;
     font-weight: 500;
-    font-size: 8px;
-    line-height: 11px;
-    min-width: 140px;
+    font-size: 6px;
+    line-height: 13px;
+    max-width: 60px;
     color: #FFFFFF;
   }
   .footer__author_mob {
     padding: 15px 0;
     background: #2A2C3F;
+  }
+  .footer__text_bottom {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0 auto;
+    letter-spacing: -1px;
   }
   
 }
