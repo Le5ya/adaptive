@@ -145,13 +145,12 @@
 }
 @media(max-width: 450px) {
   .feedback {
-    width: 320px;
     padding-top: 30px;
     padding-bottom: 34px;
     background-image: url('../img/feed-background-mob.jpg');
   }
   .feedback__container {
-    width: 320px;
+    max-width: 320px;
     padding: 0 15px;
   }
 
